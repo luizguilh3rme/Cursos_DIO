@@ -64,7 +64,7 @@ console.log(resultado)
 // === é para comparar o valor e o formato do conteúdo
 // !== é diferente?
 let numero = "1"
-console.log(numero == "1 ")
+console.log(numero == "1")
 
 let marca = "apple"
 console.log(marca == "samsung")
