@@ -1,0 +1,22 @@
+Fluxograma - Representação visual de uma sequencia de ações logicas que tiramos da nossa cabeça, uma maneira visual de representar um passo a passo lógico.
+
+Aplicações fazem:
+* Input: são momentos de interação com o usuário
+* Process: São verificações e ações para realizar o pedido do usuário
+* Output: São comando de saída para retornar alguma coisa ou dar algum posicionamento ou mensagem para o usuário
+
+Features - São as funcionalidade da aplicação, por ex cadastrar usuário, cadastrar motorista, solicitar veículo. Cada uma das etapas da definição anterior são Features que toda aplicação faz.
+
+Strings - São variáveis que armazenam textos
+Number ou int - São variáveis que armazenam números
+Boolean - São variáveis que armazenam valores lógicos "true" ou "false"
+
+JavaScript - é uma linguagem  não tipada, ou seja, ele não obriga a dizer o tipo da variável
+
+
+
+
+
+
+
+
