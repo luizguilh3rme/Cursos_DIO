@@ -1,0 +1,12 @@
+#button-around {
+    background-color: blue; /* cor inicial do botão */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #button-around.clicked {
+    background-color: red; /* cor quando o botão é clicado */
+  }

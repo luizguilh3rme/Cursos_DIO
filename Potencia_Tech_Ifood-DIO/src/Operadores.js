@@ -104,3 +104,56 @@ console.log(resultadoTerceiraIdade)
 
 let texto = "Gui"
 console.log(texto === "gui")
+
+
+//AND (&&)
+let idadeAnd = 18
+let vistoVerificado = true
+let resultadoAnd = (idade >= 18) && (vistoVerificado === true)
+console.log(resultadoAnd)
+
+//AND (&&), coletar 100 moedas e 1 item estrela
+let moedasColetadas = 99
+let item = "estrela"
+let resultadoAnd2 = (moedasColetadas >= 100) && (item === "estrela")
+console.log(resultadoAnd2)
+
+
+//OR (|| - PIPE), nosso boneca só pode sair se estiver sem chuva OU com guarda chuva
+let tempo = "sol"
+let itemOR = "guarda chuva"
+let podeSair = (tempo !== "chuva") || (itemOR === "guarda chuva")
+console.log(`nosso personagem pode sair? ${podeSair}`)
+
+let tempo2 = "chuva"
+let itemOR2 = "guarda chuva"
+let podeSair2 = (tempo2 !== "chuva") || (itemOR2 === "guarda chuva")
+console.log(`nosso personagem pode sair? ${podeSair2}`)
+
+let tempo3 = "chuva"
+let itemOR3 = "pá"
+let podeSair3 = (tempo3 !== "chuva") || (itemOR3 === "guarda chuva")
+console.log(`nosso personagem pode sair? ${podeSair3}`)
+
+
+//NOT ( !), nega uma afirmação
+let tempoNot = "chuva"
+let resultadoNot = tempoNot === "chuva"
+console.log(resultadoNot)
+
+let tempoNot2 = "chuva"
+let resultadoNot2 = tempoNot2 !== "chuva"
+console.log(resultadoNot2)
+
+let tempoNot3 = "chuva"
+let resultadoNot3 = tempoNot3 === "chuva"
+console.log(!resultadoNot3) // fica false por conta da interrogação que inverte o resultado
+
+let tempoNot4 = "chuva"
+let resultadoNot4 = tempoNot4 === "chuva"
+console.log(!!resultadoNot4)
+
+let tempoNot5 = "chuva"
+let horario = 6
+let resultadoNot5 = !(tempoNot5 === "chuva") && (horario > 5)// a interrogação pode ser muito útil no desenvolvimento de botões para mudar de cor
+console.log(resultadoNot5)

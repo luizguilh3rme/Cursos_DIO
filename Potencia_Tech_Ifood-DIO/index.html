@@ -3,13 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <section class="button1">
+        <p id="name-button">Ligado</p>
+        <div id="button-around">.</div>
+    </section>
+
+    <script>
+        const button = document.getElementById('button-around');
+        const name = document.getElementById('name-button')
+
+    button.addEventListener('click', function() {
+    button.classList.toggle('clicked');
+
+    if (button.classList.contains('clicked')) {
+    name.textContent = 'Ligado';
+    name.textContent = 'Desligado';
+  } else {
+    name.textContent = 'Desligado';
+    name.textContent = 'Ligado';
+  }
+});
+    </script>
 
 
-    <script src="./src/Operadores.js"></script>
+    <!-- <script src="./src/Operadores.js"></script> -->
 </body>
 </html>
