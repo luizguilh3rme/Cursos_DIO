@@ -46,3 +46,22 @@ function enviarDados(){
         console.log("Senha incorreta")
     }
 }
+
+
+//valores que são adcionados a função
+torrar("Pão de forma", "Felipe")
+torrar("Pão integral", "Guilherme")
+
+function torrar(pao, nome){
+    console.log(`Torrada feita com ${pao}`)
+    console.log(`A torrada é de ${nome}`)
+}
+
+
+//valores que são de forma fixa na função
+torrar("Pão de forma")
+torrar("Pão integral", "Guilherme")
+
+function torrar(pao, nome="Cliente"){
+    console.log(`Torrada feita com ${pao} para ${nome}`) //interpolação de String é usar `` e depois o $ + {}
+}
