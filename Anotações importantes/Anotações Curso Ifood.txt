@@ -13,6 +13,8 @@ Boolean - São variáveis que armazenam valores lógicos "true" ou "false"
 
 JavaScript - é uma linguagem  não tipada, ou seja, ele não obriga a dizer o tipo da variável
 
+JSON: JavaScript Object Notion, chave e valor com o objetivo de transferir dados
+
 
 
 
